@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "preLaunchTask": "Build all",
+            "program": "/media/sf_UTN_JESUS/Cursada/2021 (Primer Nivel)/INFORMATICA_I/TP_10/bin/app",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "/media/sf_UTN_JESUS/Cursada/2021 (Primer Nivel)/INFORMATICA_I/TP_10/src",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}
